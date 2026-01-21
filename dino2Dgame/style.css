@@ -1,0 +1,138 @@
+.bg{
+    height: 100vh;
+    width: 100%;
+    background-image: url(pngtree-parallax-forest-fantasy-landscape-with-tree-grass-image_1102728.jpg);
+    background-size:cover;
+    background-repeat: repeat-x;
+
+    overflow-x: hidden;
+    position: absolute;
+    
+
+}
+
+.body{
+    margin: 0px;
+}
+
+.f{
+    height: 86px;
+    position: absolute;
+    margin-top: 520px;
+}
+
+.dino{
+    height: 235px;
+    position: absolute;
+    margin-top: 385px;
+}
+
+.score{
+    position: absolute;
+    font-size:60px ;
+    font-weight: 80px;
+    margin-top: 50px;
+    margin-left: 70%;
+    color: #653906;
+    font-family: fantasy;
+
+}
+
+.end{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-image:url(edit.jpg) ;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    font-size: 70px;
+    font-weight: bold;
+    color: darkolivegreen;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    visibility: hidden;
+}
+
+.btn1{
+    width: 400px;
+    height: 60px;
+    background-color: rgb(54, 31, 31);
+    border: none;
+    border-radius: 15px;
+    font-size: 30px;
+    color: lightgreen;
+    font-style: inherit;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    cursor: pointer;
+    border-style: ridge;
+    border-color:rgb(146, 111, 59) ;
+    text-align:center;
+    text-decoration: double;
+    
+    
+}
+
+.d0{
+    height: 200px;
+}
+
+.start{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-image:url(edit.jpg) ;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    font-size: 70px;
+    font-weight: bold;
+    color: darkolivegreen;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    visibility: visible;
+
+}
+
+.idle{
+    height: 200px;
+}
+
+.won{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-image:url(edit.jpg) ;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    font-size:40px;
+    font-weight: bold;
+    color: darkolivegreen;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    visibility: hidden;
+ 
+}
+
+.ii1{
+    height: 100px;
+    
+}
+
+.sb{
+    position: absolute;
+    height: 143px;
+    margin-left: 69%;
+    margin-top: 20px;
+}
+

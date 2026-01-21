@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>THE DINO CHALLENGE</title>
+    <link rel="icon" href="Jump (7).png"/>
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body class="body" onkeyup="key (event);" >
+    <div class="bg" id="bg">
+        <div ><img class="sb" src="sb2edit.jpg"/></div>
+
+        <p class="score" id="score">Your Score: 0</p>
+        <img src="Run (1).png" id="dino" class="dino" />
+
+    </div>
+
+    <div id="end" class="end">
+        <div> <img src="end.gif" /></div>
+        <div> <img class="d0" id="d0" src="Dead (7).png" /> </div>
+        <div>YOUR SCORE</div>
+        <div id="endscore">0</div>
+        <button onclick="re();" class="btn1">Try Again</Try></button>
+
+    </div>
+
+    <div id="start" class="start" >
+        <div   style="font-family: cursive;"  >THE DINO CHALLENGE</div>
+
+        <div> 
+            <img class="idle" id="idle" src="Idle (1).png"/>
+        </div>
+
+        
+        <div style="font-size: 30px;">To Start Game : press ENTER or SPACE</div>
+        <div style="font-size: 30px;">To have a jump: press SPACE</div>
+
+    </div>
+
+    <div id="won" class="won">
+        <div><img src="win.gif" class="ii2"/></div>
+        <button class="btn1" onclick="re();" > start Again</button>
+        <div>Completed Successfully</div>
+        <div>Winning Score : 280</div>
+        <div>Your Score : 280</div>
+        
+        
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+
+
+</html>
