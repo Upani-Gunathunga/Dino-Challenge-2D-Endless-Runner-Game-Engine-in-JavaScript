@@ -11,15 +11,7 @@ The project demonstrates core **browser game development concepts** such as anim
 
 ## 🎮 Game Demo
 
-*(Add a short gameplay GIF here)*
-
-```markdown
-![Dino Challenge Gameplay](gameplay.gif)
-```
-
-Example:
-
-![Dino Challenge Gameplay](gameplay.gif)
+![Dino Challenge Gameplay](Video Demonstration/DinoChallenge_2D_Game.gif)
 
 ---
 
