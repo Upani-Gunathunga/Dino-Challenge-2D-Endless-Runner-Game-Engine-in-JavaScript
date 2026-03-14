@@ -1,64 +1,194 @@
-# Dino-Challenge-2D-Endless-Runner-Game-Engine-in-JavaScript
-A 2D endless runner browser game built with HTML, CSS, and JavaScript featuring real-time animation, keyboard controls, collision detection, and scoring.
 
 
-🦖 Dino Challenge — 2D Endless Runner Game Engine in JavaScript
+# 🦖 Dino Challenge — 2D Endless Runner Game Engine (JavaScript)
 
-Dino Challenge is a browser-based 2D endless runner game developed using HTML, CSS, and Vanilla JavaScript. The game features a real-time animated dinosaur character that automatically runs forward while the player controls jumping using keyboard input to avoid dynamically generated obstacles.
+Dino Challenge is a **browser-based 2D endless runner game** built using **HTML, CSS, and Vanilla JavaScript**.
+The game features a running dinosaur that the player must control to **jump over obstacles and survive while scoring points**.
 
-The project demonstrates core game development concepts such as animation loops, collision detection, sprite handling, scoring systems, and state-based UI transitions — all implemented without external libraries.
+The project demonstrates core **browser game development concepts** such as animation loops, collision detection, sprite handling, scoring systems, and state-based UI transitions — all implemented **without external libraries**.
 
-🎮 Game Mechanics
+---
 
-Real-time character movement and animation
+## 🎮 Game Demo
 
-Keyboard-controlled jumping (SPACE / ENTER)
+*(Add a short gameplay GIF here)*
 
-Obstacle spawning and scrolling background
+```markdown
+![Dino Challenge Gameplay](gameplay.gif)
+```
 
-Collision detection system
+Example:
 
-Live score tracking
+![Dino Challenge Gameplay](gameplay.gif)
 
-Start screen, win screen, and game-over screen
+---
 
-Restart system with score reset
+## 🎯 Game Mechanics
 
-🧠 Technical Architecture
+🎮 **Automatic Running Character**
+The dinosaur continuously runs forward with sprite-based animation.
 
-Rendering Engine: DOM-based sprite animation
+⌨️ **Keyboard Controls**
 
-Game Loop: JavaScript timing and frame updates
+* **ENTER / SPACE** → Start the game
+* **SPACE** → Jump to avoid obstacles
 
-Input System: Keyboard event handling
+🔥 **Dynamic Obstacles**
+Flame obstacles appear and move toward the player.
 
-Physics Logic: Jump trajectory and gravity simulation
+💥 **Collision Detection**
+If the dinosaur hits an obstacle, the game ends.
 
-State Management: Start, Running, Win, Game Over states
+🏆 **Score Tracking**
+Score increases over time while surviving.
 
-UI System: Dynamic DOM updates for score and screens
+📺 **Game States**
 
-🛠️ Built With
+* Start Screen
+* Running Game
+* Game Over Screen
+* Winning Screen
 
-HTML5
+🔁 **Restart System**
+Players can restart the game after losing.
 
-CSS3 (Sprite animation & layout)
+---
 
-JavaScript (Game engine logic)
+## 🧠 Technical Architecture
 
-🚀 How to Run
+| Component    | Implementation                      |
+| ------------ | ----------------------------------- |
+| Rendering    | DOM-based sprite animation          |
+| Game Loop    | JavaScript intervals                |
+| Input System | Keyboard event listeners            |
+| Physics      | Simulated jump trajectory & gravity |
+| Collision    | Position-based obstacle detection   |
+| UI System    | Dynamic DOM updates                 |
 
-Clone the repository
+---
 
-Open index.html in any modern browser
+# ⚙️ Game Pipeline
 
-Press ENTER or SPACE to start
+The project is structured into **three main files**, each handling a specific part of the game engine.
 
-Press SPACE to jump
+---
 
-Avoid obstacles and reach the winning score
+## 📄 `index.html` — Game Structure
 
+This file defines the **core layout of the game interface**.
 
-🎯 Project Objective
+It includes:
 
-This project was built to demonstrate browser-based game development fundamentals including animation systems, event-driven input handling, real-time physics logic, and interactive UI design.
+* Game background container
+* Dinosaur character sprite
+* Score display
+* Start screen UI
+* Game Over screen
+* Win screen
+
+It also loads the **CSS styling** and **JavaScript game engine logic**.
+
+---
+
+## 🎨 `style.css` — Game Visual Design
+
+This file controls the **visual appearance of the game**.
+
+It handles:
+
+* Background environment
+* Character positioning
+* Screen layouts (start, end, win)
+* Score display styling
+* Button design
+* Sprite positioning
+
+The CSS ensures the game appears **clean, centered, and responsive within the browser window**.
+
+---
+
+## 🧠 `script.js` — Game Engine Logic
+
+This is the **core logic of the game**.
+
+It implements:
+
+🎞️ **Animation System**
+
+* Running animation
+* Jump animation
+* Idle animation
+* Death animation
+
+⌨️ **Input Handling**
+
+* Detects keyboard input for starting and jumping
+
+🔥 **Obstacle System**
+
+* Generates and moves flame obstacles
+
+⚙️ **Physics Simulation**
+
+* Jump motion using vertical position updates
+
+💥 **Collision Detection**
+
+* Detects when the dinosaur collides with obstacles
+
+🏆 **Score System**
+
+* Tracks player survival score
+
+🎵 **Audio Engine**
+
+* Background music
+* Jump sound
+* Death sound
+* Win sound
+
+---
+
+# 🛠️ Built With
+
+* **HTML5**
+* **CSS3**
+* **JavaScript**
+
+No external libraries or frameworks were used.
+
+---
+
+# 🚀 Running the Game
+
+1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/your-username/dino-challenge.git
+```
+
+2️⃣ Open the project folder
+
+3️⃣ Run using **Live Server** in VS Code
+(or simply open `index.html` in a browser)
+
+4️⃣ Press **ENTER / SPACE** to start the game
+
+5️⃣ Press **SPACE** to jump and avoid obstacles
+
+---
+
+# 🎯 Project Objective
+
+This project was developed to explore **fundamental browser game development concepts**, including:
+
+* Real-time animation systems
+* Event-driven keyboard input
+* Basic physics simulation
+* Collision detection
+* Interactive UI state management
+
+It demonstrates how a **simple game engine can be built using only core web technologies**.
+
+---
+
