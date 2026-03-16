@@ -151,24 +151,7 @@ No external libraries or frameworks were used.
 
 ---
 
-# 🚀 Running the Game
 
-1️⃣ Clone the repository
-
-```bash
-git clone https://github.com/your-username/dino-challenge.git
-```
-
-2️⃣ Open the project folder
-
-3️⃣ Run using **Live Server** in VS Code
-(or simply open `index.html` in a browser)
-
-4️⃣ Press **ENTER / SPACE** to start the game
-
-5️⃣ Press **SPACE** to jump and avoid obstacles
-
----
 
 # 🎯 Project Objective
 
